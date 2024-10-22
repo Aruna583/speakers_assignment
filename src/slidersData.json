@@ -1,7 +1,7 @@
 [
     {
         "name": "John Doe",
-        "img": "src/assets/img1.jpg",
+        "img": "src/assets/img1.png",
         "role": "Chief Marketing Officer",
         "company": "Acme Corp"
     },
@@ -19,7 +19,7 @@
     },
     {
         "name": "John Doe",
-        "img": "src/assets/img4.jpg",
+        "img": "src/assets/img4.png",
         "role": "Chief Marketing Officer",
         "company": "Specbee"
     }
