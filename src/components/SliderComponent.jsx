@@ -45,7 +45,7 @@ const SliderComponent = () => {
         <div className='relative flex justify-center items-center mt-4'>
         <div className='w-[8rem] top-[3rem] md:block hidden'>
         <span>click here to see the full program</span>
-        <div className='absolute top-[4.5rem] md:left-[17rem] lg:left-[34rem] sm:left-[10rem]'>
+        <div className='absolute top-[4.5rem] md:left-[17rem] lg:left-[27rem] sm:left-[10rem]'>
         <img src={ArrowBigRight} className='h-8 w-40 pl-10' />
         </div>
         </div>
