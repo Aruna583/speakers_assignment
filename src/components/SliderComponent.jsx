@@ -32,7 +32,7 @@ const SliderComponent = () => {
           onClick ={() => handleSpekerDetails(speaker)}
           >
             <div className='flex justify-center items-center'>
-            <img src={getImageUrl(speaker.imgSrc)} className='h-44 w-44 rounded-full' alt={speaker.role} />
+            <img src={getImageUrl(speaker.imgSrc)} className='h-24 w-24 md:h-36 md:w-36 lg:h-44 lg:w-44 rounded-full' alt={speaker.role} />
             </div>
             <div className='flex flex-col justify-center items-center gap-2 p-4'>
             <p className='text-2xl font-bold'>{speaker.name}</p>
