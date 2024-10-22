@@ -8,7 +8,7 @@ import DropImg from '../../assets/dropImg.png';
 
 const UserDataComponent = (props) => {
     const {onClose, speakerData} = props
-    const {name, img, role, company} = speakerData
+    const {name, imgSrc, role, company} = speakerData
 
 
   return (
@@ -18,7 +18,7 @@ const UserDataComponent = (props) => {
         </div>
         <div className='md:flex flex  flex-col md:flex-row p-4 gap-4 pb-4'>
             <div className='w-full md:w-1/3 md:flex flex-col md:flex-row justify-center items-center gap-4 md:border-r border-gray-300'>
-                <img src={img} alt='' className='h-24 w-24 md:h-36 md:w-36 lg:h-44 lg:w-44 rounded-full'/>
+                <img src={imgSrc} alt='' className='h-24 w-24 md:h-36 md:w-36 lg:h-44 lg:w-44 rounded-full'/>
                 <div className='border-right border-solid'>
                     <p className='lg:text-2xl md:text-xl text-lg font-bold'>{name}</p>
                     <p className='md:text-lg text-base font-semibold'>{role}</p>
