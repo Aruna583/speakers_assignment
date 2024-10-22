@@ -36,7 +36,7 @@ const SliderComponent = () => {
             </div>
             <div className='flex flex-col justify-center items-center gap-2 p-4'>
             <p className='text-2xl font-bold'>{speaker.name}</p>
-            <p className='text-lg'>{speaker.role}</p>
+            <p className='text-lg font-bold'>{speaker.role}</p>
             <p className='text-base text-gray-400'>{speaker.company}</p>
             </div>
           </div>

@@ -22,7 +22,7 @@ const UserDataComponent = (props) => {
                 <img src={getImageUrl(imgSrc)} alt='' className='h-24 w-24 md:h-36 md:w-36 lg:h-44 lg:w-44 rounded-full'/>
                 <div className='border-right border-solid'>
                     <p className='lg:text-2xl md:text-xl text-lg font-bold'>{name}</p>
-                    <p className='md:text-lg text-base font-semibold'>{role}</p>
+                    <p className='md:text-base text-base font-semibold'>{role}</p>
                     <p className='text-gray-400 md:text-base sm:text-sm'>{company}</p>
                     <div className='flex gap-2 pt-2'>
                     <img src={DropImg} className='pointer h-5' />
