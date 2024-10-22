@@ -1,25 +1,25 @@
 [
     {
         "name": "John Doe",
-        "img": "src/assets/imageOne.png",
+        "img": "./src/assets/imageOne.png",
         "role": "Chief Marketing Officer",
         "company": "Acme Corp"
     },
     {
         "name": "John Doe",
-        "img": "src/assets/img2.jpg",
+        "img": "./src/assets/img2.jpg",
         "role": "Chief Engagement Officer",
         "company": "Acquia"
     },
     {
         "name": "John Doe",
-        "img": "src/assets/img3.jpg",
+        "img": "./src/assets/img3.jpg",
         "role": "Chief Technical Developer",
         "company": "Pantheon"
     },
     {
         "name": "John Doe",
-        "img": "src/assets/img4.png",
+        "img": "./src/assets/img4.png",
         "role": "Chief Marketing Officer",
         "company": "Specbee"
     }
