@@ -5,8 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import UserDataComponent from './UserDataComponent';
 import { settings } from '../utils';
-import { PiArrowBendRightUpBold } from "react-icons/pi";
-import ArrowBigRight from '../../public/assets/rightArrow.png';
+import ArrowBigRight from '/src/assets/rightArrow.png';
 
 const SliderComponent = () => {
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import { RiCloseLine } from "react-icons/ri";
-import CrossImage from '../../public/assets/crossImg.png';
-import LinkeDin from '../../public/assets/linkedin.png';
-import DropImg from '../../public/assets/dropImg.png';
+import CrossImage from '/src//assets/crossImg.png';
+import LinkeDin from '/src/assets/linkedin.png';
+import DropImg from '/src//assets/dropImg.png';
 
 
 
