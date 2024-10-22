@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import UserDataComponent from './UserDataComponent';
 import { settings } from '../utils';
-import ArrowBigRight from '/src/assets/rightArrow.png';
+import ArrowBigRight from '../../assets/rightArrow.png';
 
 const SliderComponent = () => {
 
